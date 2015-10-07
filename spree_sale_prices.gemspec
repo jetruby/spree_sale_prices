@@ -17,12 +17,12 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.4', '>= 2.4.5'
+  s.add_dependency 'spree_core', '~> 2.3', '>= 2.3'
 
-  s.add_development_dependency 'rspec-rails',  '~> 3.1'
-  s.add_development_dependency 'capybara',  '~> 2.4'
-  s.add_development_dependency 'database_cleaner',  '~> 1.4'
-  s.add_development_dependency 'factory_girl', '~> 4.5'
+  s.add_development_dependency 'rspec-rails',  '~> 3.0'
+  s.add_development_dependency 'capybara',  '~> 2.3'
+  s.add_development_dependency 'database_cleaner',  '~> 1.3'
+  s.add_development_dependency 'factory_girl', '~> 4.2'
   s.add_development_dependency 'simplecov',  '~> 0.9'
   s.add_development_dependency 'sqlite3',  '~> 1.3'
 end
